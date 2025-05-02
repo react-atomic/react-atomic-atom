@@ -1,5 +1,5 @@
 {
-  "version": "4.0.2",
+  "version": "4.0.3",
   "name": "react-atomic-atom",
   "repository": {
     "type": "git",
@@ -52,6 +52,7 @@
   "exports": {
     "./babel.config": "./babel.config.js",
     ".": {
+      "types": "./types/index.d.ts",
       "require": "./build/cjs/src/index.js",
       "module": "./build/es/src/index.mjs",
       "import": "./build/es/src/index.mjs"
